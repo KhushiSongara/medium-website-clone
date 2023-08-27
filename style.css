@@ -1,0 +1,690 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar{
+    height: 80px;
+    width: 100vw;
+    background-color: #ffb700;
+    position: relative;
+    border-bottom: 0.5px solid black;
+    /* position: fixed; */
+    animation-name: blink;
+  animation-duration: 1ms;
+}
+    
+    #sidebarLeft {
+    
+    height: 800px;
+    width: 65vw;
+    float: left;
+    }
+#ordoner {
+   
+    float: left;
+    width: 30vw;
+    height: 800px;
+    position: fixed;
+    top: 80px;
+    left: 888px;
+    }
+    
+    #sidebarRight {
+    width: 210px;
+    height: 800px;
+    position: fixed;
+    top: 50px;
+    left: 1590px;
+    background-color: #0CF;
+    }
+@keyframes blink {
+    0% {background-color:#ffb700;}
+  100% {background-color: white;}
+  }
+
+  @keyframes blink {
+    0%, 100% {
+        opacity: 1; 
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes typing {
+    from {
+      width: 0; /* Start with zero width */
+    }
+    to {
+      width: 100%; /* Reach full width */
+    }
+  }
+  
+  @keyframes cursor {
+    from,
+    to {
+      border-color: transparent; /* Blink cursor */
+    }
+    50% {
+      border-color: #333; /* Show cursor */
+    }
+  }
+
+.blink {
+    animation: blink 2s infinite; 
+}
+
+
+.single{
+    animation: blink 2s infinite ;
+    
+    position: absolute;
+    top: 303px;
+    left: 747px;
+    width: 100px;
+}
+
+.single1{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 383px;
+    left: 960px;
+    width: 96px;
+}
+
+.single2{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 277px;
+    left: 941px;
+    width: 97px;
+}
+
+.single3{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 360px;
+    left: 1201px;
+    width: 95px;
+}
+
+.single4{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 303px;
+    left: 1197px;
+    width: 100px;
+}
+
+.single5{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 435px;
+    left: 1185px;
+    width: 100px;
+}
+
+.single6{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 463px;
+    left: 1095px;
+    width: 96px;
+}
+.single10{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 463px;
+    left: 1000px;
+    width: 96px;
+}
+.single11{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 463px;
+    left: 1190px;
+    width: 96px;
+}
+.single12{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 463px;
+    left: 950px;
+    width: 96px;
+}
+
+.single7 {
+    animation: blink 3s infinite;
+    position: absolute;
+    top: 303px;
+    left: 1280px;
+    width: 94px;
+}
+.single13{
+    animation: blink 3s infinite;
+    position: absolute;
+    top: 303px;
+    left: 1200px;
+    width: 94px;
+}
+.single14{
+    animation: blink 3s infinite;
+    position: absolute;
+    top: 303px;
+    left: 1100px;
+    width: 94px;
+}
+.single15{
+    animation: blink 3s infinite;
+    position: absolute;
+    top: 303px;
+    left: 950px;
+    width: 94px;
+}
+.single16{
+    animation: blink 3s infinite;
+    position: absolute;
+    top: 304px;
+    left: 840px;
+    width: 94px;
+}
+.single8{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 119px;
+    left: 1173px;
+    width: 98px;
+}
+.single17{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 119px;
+    left: 1097px;
+    width: 98px;
+}
+
+.single9{
+    animation: blink 2s infinite;
+    position: absolute;
+    top: 126px;
+    left: 940px;
+    width: 99px;
+}
+  
+
+.logo{
+    font-size: 35px;
+    font-weight: bold ;
+    margin-left: 130px;
+    padding-top: 15px;
+}
+
+.circles{
+    position: relative;
+}
+
+.circle-1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 76PX;
+}
+
+.circle-2{
+    height: 30px;
+    width: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 108Px;
+    margin-top: 25px;
+}
+
+.circle-3{
+    height: 30px;
+    width: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 125px;
+}
+
+
+li{
+list-style: none;
+display: inline-block;
+}
+
+.tect-nav-1{
+    position: absolute;
+    top: 45%;
+    left: 64%;
+    font-size: 15px;
+}
+
+.tect-nav-2{
+    position: absolute;
+    top: 45%;
+    left: 70%;
+    font-size: 15px;
+}
+
+.tect-nav-3{
+    position: absolute;
+    top: 45%;
+    left: 77%;
+    font-size: 15px;
+}
+
+.tect-nav-4{
+    position: absolute;
+    top: 45%;
+    left: 81%;
+    font-size: 15px;
+}
+
+.tect-nav-5{
+    position: absolute;
+    top: 30%;
+    left: 86%;
+    font-size: 15px;    
+}
+
+.home-page{
+    height: 30vh;
+    width: 100vw;
+    background-color: #ffb700;
+    border-bottom: 0.5px solid black;
+    padding: 5% 0 15% 5%;
+}
+
+.title{
+    font-size: 100px;
+    font-weight:400;
+}
+
+.content-home{
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+.content-home-2{
+    font-size: 27px;
+    margin-top: -5px;
+}
+
+.button-home{
+    margin-top: 45px;
+    height: 40px;
+    width: 200px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.trending{
+    padding: 3% 0 0 4%;
+    position: relative;
+}
+
+.trend{
+    height: 25px;
+}
+
+.trend-text{
+    position: absolute;
+ top: 62.5%;
+ font-weight: bold;
+ font-size: 16px;
+ left: 7%;
+ }
+
+ .t01{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 0% 0 0 4.5%;
+}
+
+.t04{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 5% 0 0 4.5%;
+}
+
+.t02{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 0% 0 0 40%;
+}
+
+.t05{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 5% 0 0 40%;
+}
+.t03{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 0% 0 0 70%;
+}
+.t06{
+    font-size: 30px;
+    color: lightgrey;
+    font-weight: bold;
+    position: absolute;
+    padding: 5% 0 0 70%;
+}
+
+.tbi{
+    height: 22px;
+    padding: 1% 0 0 8.5%;
+    position: absolute;
+}
+
+.nimmo{
+    height: 22px;
+    width: 22px;
+    padding: 6% 0 0 8.5%;
+    position: absolute;
+}
+.flut{
+    height: 22px;
+    padding: 1% 0 0 44.5%;
+    position: absolute;
+}
+.ai{
+    height: 50px;
+    padding: 5% 0 0 43.5%;
+    position: absolute;
+}
+.claire{
+    height: 22px;
+    padding: 1% 0 0 74.5%;
+    position: absolute;
+}
+.dart{
+    height: 22px;
+    padding: 6% 0 0 74.5%;
+    position: absolute;
+}
+
+.tb{
+    padding: 1% 0 0 10.8%;
+    position: absolute;
+    font-size: 14px;
+}
+.te{
+    padding: 6% 0 0 10.8%;
+    position: absolute;
+    font-size: 14px;
+}
+.tc{
+    padding: 1% 0 0 47.3%;
+    position: absolute;
+    font-size: 14px;
+}
+.tf{
+    padding: 6% 0 0 47.3%;
+    position: absolute;
+    font-size: 14px;
+}
+.td{
+    padding: 1% 0 0 77.3%;
+    position: absolute;
+    font-size: 14px;
+}
+.tg{
+    padding: 6% 0 0 77.3%;
+    position: absolute;
+    font-size: 14px;
+}
+.w{
+    padding: 1.5% 0 0 8.5%;
+    position: absolute;
+    font-weight: bold;
+}
+.wc{
+    padding: 6.5% 0 0 8.5%;
+    position: absolute;
+    font-weight: bold;
+}
+.wa{
+    padding: 1.5% 0 0 44.5%;
+    position: absolute;
+    font-weight: bold;
+}
+.wd{
+    padding: 6.5% 0 0 44.5%;
+    position: absolute;
+    font-weight: bold;
+}
+
+.wb{
+    padding: 1.5% 0 0 74.5%;
+    position: absolute;
+    font-weight: bold;
+}
+.we{
+    padding: 6.5% 0 0 74.5%;
+    position: absolute;
+    font-weight: bold;
+}
+.a{
+    position: absolute;
+    padding: 2% 0 0 8.5%;
+}
+.ac{
+    position: absolute;
+    padding: 8.5% 0 0 8.5%;
+}
+
+.aa{
+    position: absolute;
+    padding: 2% 0 0 44.5%;
+}
+.ad{
+    position: absolute;
+    padding: 8.5% 0 0 44.5%;
+}
+.ab{
+    position: absolute;
+    padding: 3% 0 0 74.5%;
+}
+.ae{
+    position: absolute;
+    padding: 8.5% 0 0 74.5%;
+}
+
+.sec{
+    position: relative;
+}
+
+.sec-1{
+    padding: 16% 0 0 6%;
+    position: absolute;
+}
+
+.sec-2{
+    
+    padding: 19% 0 0 65%;
+    position: absolute;
+
+}
+
+.li{
+    position: absolute;
+    font-size: 14px;
+    padding: 0.5% 0 0 5%;
+    font-weight: 600;
+}
+.ll{
+    position: absolute;
+    font-size: 14px;
+   margin-top: 20%;
+   margin-left: 37px;
+    font-weight: 600;
+}
+.lo{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 56%;
+    margin-left: 37px;
+     font-weight: 600;
+}
+.lk{
+    position: absolute;
+    font-size: 18px;
+    margin-top: -20px;
+    color: gray;
+}
+.lm{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 25%;
+    color: gray;
+    width: 500px;
+}
+.lp{
+    position: absolute;
+    font-size: 18px;
+    margin-top: 60%;
+    color: gray;
+}
+.ln{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 35%;
+    color: gray;
+}
+.lq{
+    position: absolute;
+    font-size: 14px;
+    margin-top: 70%;
+    color: gray;
+}
+.lj{
+    position: absolute;
+    font-size: 14px;
+    margin-top: -10px;
+    color: gray;
+}
+.p{
+    height: 30px;
+    width: 70px;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -12px;
+}
+.pa{
+    height: 30px;
+    width: 70px;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 33%;
+}
+.pb{
+    height: 30px;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 69%;
+}
+.debate{
+    position: absolute;
+    left: 180%;
+    top: 45%;
+    height: 150px;
+    width: 200px;
+}
+.disc{
+    position: absolute;
+    left: 180%;
+    top: 85%;
+    height: 150px;
+    width: 200px;
+}
+
+.bl{
+    position: absolute;
+    left: 180%;
+    top: 125%;
+    height: 150px;
+    width: 200px;
+}
+
+@media (max-width: 768px) {
+    .tect-nav-1,.tect-nav-2,.tect-nav-3{
+        display: none;
+    }
+
+    .tect-nav-4{
+        left: 70%;
+    }
+
+    .tect-nav-5{
+        left: 80%;
+    }
+    
+    .circle-1{
+        margin-left: 30px;
+    }
+
+    .circle-2{
+        margin-left: 61px;
+    }
+.circle-3{
+    margin-left:77px ;
+}
+
+.logo{
+    margin-left: 85px;
+}
+
+.home-page{
+    height: 37vh;
+    padding: 22% 5%;
+    
+}
+
+.title{
+    font-size: 95px;
+}
+
+.content-home{
+    margin-top: 30px;
+}
+
+.trend-text{
+    left: 10%;
+    top: 43%;
+}
+}
+    
